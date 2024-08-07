@@ -45,7 +45,7 @@ public class KeyExample extends JFrame {
 // 2) it is our KeyListener
         KeyDisplay kd = new KeyDisplay();
 //only three JOGL lines of code ... and here they are
-        GLCapabilities glcaps = new GLCapabilities();
+//        GLCapabilities glcaps = new GLCapabilities();
         glcanvas = new GLCanvas();
         glcanvas.addGLEventListener(kd);
         glcanvas.addKeyListener(kd);
